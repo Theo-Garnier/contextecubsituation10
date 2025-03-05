@@ -1,5 +1,5 @@
 ﻿#=======================================================
-#NAME:exerciceAUDIT2dhcp.ps1
+#NAME:exerciceAUDIT3dns.ps1
 #AUTHOR: Garnier Théo
 #DATE:05/03/2025
 #
