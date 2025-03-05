@@ -20,4 +20,4 @@ foreach ($scope in $scopes) {
 }
 
 Set-Content -Path $outputFile -Value $contenu
-Write-Host "`nL'audit des plages DHCP a été enregistré dans $outputFile"
+Write-Host "`nL'audit des plages DHCP a été enregistrer dans $outputFile"

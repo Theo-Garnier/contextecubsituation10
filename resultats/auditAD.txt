@@ -1,0 +1,139 @@
+Audit des enregistrements DNS - Lancé le 05/03/2025 11:21:19
+
+Utilisateur : Invité
+Nom complet : Invité
+Activé : False
+Dernière connexion : 
+Date de création : 11/06/2024 08:29:18
+Groupes : Invités du domaine, Invités
+
+
+Utilisateur : Administrateur
+Nom complet : Administrateur
+Activé : True
+Dernière connexion : 02/25/2025 17:04:25
+Date de création : 11/06/2024 08:29:18
+Groupes : Utilisateurs du domaine, Administrateurs, Utilisateurs du Bureau à distance, Administrateurs du schéma, Administrateurs de l’entreprise, Admins du domaine, Propriétaires créateurs de la stratégie de groupe
+
+
+Utilisateur : krbtgt
+Nom complet : krbtgt
+Activé : False
+Dernière connexion : 
+Date de création : 11/06/2024 08:30:02
+Groupes : Utilisateurs du domaine, Groupe de réplication dont le mot de passe RODC est refusé
+
+
+Utilisateur : adminssh
+Nom complet : adminssh
+Activé : True
+Dernière connexion : 
+Date de création : 11/06/2024 08:29:18
+Groupes : Utilisateurs du domaine, Utilisateurs, Utilisateurs du Bureau à distance
+
+
+Utilisateur : sshd
+Nom complet : sshd
+Activé : True
+Dernière connexion : 
+Date de création : 11/06/2024 08:29:18
+Groupes : Utilisateurs du domaine
+
+
+Utilisateur : quentin.demouliere
+Nom complet : quentin demouliere
+Activé : True
+Dernière connexion : 
+Date de création : 11/06/2024 08:46:52
+Groupes : Utilisateurs du domaine, Production
+
+
+Utilisateur : béatrice.caramigeas
+Nom complet : béatrice caramigeas
+Activé : True
+Dernière connexion : 11/20/2024 10:58:54
+Date de création : 11/06/2024 08:47:50
+Groupes : Utilisateurs du domaine, Clients
+
+
+Utilisateur : david.balny
+Nom complet : david balny
+Activé : True
+Dernière connexion : 11/20/2024 10:24:50
+Date de création : 11/06/2024 08:46:28
+Groupes : Utilisateurs du domaine, Production
+
+
+Utilisateur : christèle.ferreira
+Nom complet : christèle ferreira
+Activé : True
+Dernière connexion : 
+Date de création : 11/06/2024 08:47:18
+Groupes : Utilisateurs du domaine, Administration
+
+
+Utilisateur : Delouche Patricia
+Nom complet : Delouche Patricia
+Activé : True
+Dernière connexion : 
+Date de création : 11/06/2024 09:15:36
+Groupes : Utilisateurs du domaine, Developpeurs
+
+
+Utilisateur : rmcaccas
+Nom complet : ronald mcaccas
+Activé : True
+Dernière connexion : 
+Date de création : 02/26/2025 10:45:32
+Groupes : Utilisateurs du domaine
+
+
+Utilisateur : Guillaume.Barranger
+Nom complet : Guillaume Barranger
+Activé : True
+Dernière connexion : 
+Date de création : 03/05/2025 09:57:12
+Groupes : Utilisateurs du domaine
+
+
+Utilisateur : Florian.Desale
+Nom complet : Florian Desale
+Activé : True
+Dernière connexion : 
+Date de création : 03/05/2025 09:59:12
+Groupes : Utilisateurs du domaine
+
+
+Utilisateur : Arno.Flacci
+Nom complet : Arno Flacci
+Activé : True
+Dernière connexion : 
+Date de création : 03/05/2025 09:59:12
+Groupes : Utilisateurs du domaine
+
+
+Utilisateur : Allan.Fourreau
+Nom complet : Allan Fourreau
+Activé : True
+Dernière connexion : 
+Date de création : 03/05/2025 09:59:12
+Groupes : Utilisateurs du domaine
+
+
+Utilisateur : Laure.Girard
+Nom complet : Laure Girard
+Activé : True
+Dernière connexion : 
+Date de création : 03/05/2025 09:59:12
+Groupes : Utilisateurs du domaine
+
+
+Utilisateur : Benjamin.Louis
+Nom complet : Benjamin Louis
+Activé : True
+Dernière connexion : 
+Date de création : 03/05/2025 09:59:12
+Groupes : Utilisateurs du domaine
+
+
+
