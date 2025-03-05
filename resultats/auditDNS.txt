@@ -1,0 +1,18 @@
+Audit des enregistrements DNS - Lancé le 05/03/2025 11:10:35
+Zone : _msdcs.local.dortmund.cub.sioplc.fr
+  Nom : gc, Adresse IP : 192.168.4.2
+  Nom : gc, Adresse IP : 192.168.4.1
+
+Zone : local.dortmund.cub.sioplc.fr
+  Nom : @, Adresse IP : 192.168.4.1
+  Nom : @, Adresse IP : 192.168.4.2
+  Nom : DomainDnsZones, Adresse IP : 192.168.4.2
+  Nom : DomainDnsZones, Adresse IP : 192.168.4.1
+  Nom : ForestDnsZones, Adresse IP : 192.168.4.2
+  Nom : ForestDnsZones, Adresse IP : 192.168.4.1
+  Nom : Salle406-13, Adresse IP : 192.168.4.130
+  Nom : Salle406-17, Adresse IP : 192.168.4.193
+  Nom : serveurprimaire1, Adresse IP : 192.168.4.1
+  Nom : serveursecondaire2, Adresse IP : 192.168.4.2
+
+

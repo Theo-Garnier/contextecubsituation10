@@ -5,19 +5,21 @@
 #
 #=======================================================
 
-$outputFile = "C:\Users\Administrateur.LOCAL\Desktop\Powershell\contextecubsituation10\resultats\auditDHCP.txt"
+$outputFile = "C:\Users\Administrateur.LOCAL\Desktop\Powershell\contextecubsituation10\resultats\auditDNS.txt"
 $Date = Get-Date -Format "dd/MM/yyyy HH:mm:ss"
-$contenu = "Audit des plages DHCP - Lancé le $Date`n"
-$scopes = Get-DhcpServerv4Scope
-foreach ($scope in $scopes) {
-    $contenu += "Plage $($scope.Name) : $($scope.State)`n" 
-    
-    if ($scope.State -eq "Active") {
-        Write-Host "Plage $($scope.Name) :" $scope.State -ForegroundColor Green
-    } else {
-        Write-Host "Plage $($scope.Name) :" $scope.State -ForegroundColor Red
+$contenu = "Audit des enregistrements DNS - Lancé le $Date`n"
+$dnsZones = Get-DnsServerZone
+foreach ($zone in $dnsZones) {
+    $dnsRecords = Get-DnsServerResourceRecord -ZoneName $zone.ZoneName -RRType A
+    if ($dnsRecords.Count -gt 0) {
+        $contenu += "Zone : $($zone.ZoneName)`n"
+        
+        foreach ($record in $dnsRecords) {
+            $contenu += "  Nom : $($record.HostName), Adresse IP : $($record.RecordData.IPv4Address)`n"
+            Write-Host "Zone : $($zone.ZoneName), Nom : $($record.HostName), Adresse IP : $($record.RecordData.IPv4Address)" -ForegroundColor green
+        }
+        $contenu += "`n"
     }
 }
-
 Set-Content -Path $outputFile -Value $contenu
-Write-Host "`nL'audit des plages DHCP a été enregistré dans $outputFile"
+Write-Host "`nL'audit des enregistrements DNS a été enregistré dans $outputFile"
